@@ -149,7 +149,7 @@ input::-webkit-input-placeholder {
   #follow{
     color:gray;
     padding-top:5px;
-    font-size:14px;
+    font-size:13px;
   }
   #get{
     color:gray;
@@ -181,5 +181,8 @@ input::-webkit-input-placeholder {
     font-size: 13px;
     /* text-align: center; */
     /* padding:10px; */
+  }
+  .btn-primary{
+    font-size: 13px;
   }
 }
