@@ -3,6 +3,7 @@
   } */
   #logo {
     vertical-align:middle;
+    /* background-image:  */
   }
   .navbar-brand span {
     font-size:2rem;
@@ -143,17 +144,20 @@ input::-webkit-input-placeholder {
     color:gray;
     font-size: 26px;
     padding-bottom:5px;
+    padding-top: 0px;
     /* text-align: center; */
     font-family: 'Roboto Condensed', sans-serif;
   }
   #follow{
     color:gray;
     padding-top:5px;
-    font-size:13px;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif;
   }
   #get{
     color:gray;
     font-size: 15px;
+    /* text-align: center; */
   }
   #by{
     color: gray;
@@ -177,12 +181,39 @@ input::-webkit-input-placeholder {
   }
   #in{
     display: block;
-    color: gray;
+    color: black;
     font-size: 13px;
-    /* text-align: center; */
+    text-align: center !important;
     /* padding:10px; */
   }
   .btn-primary{
     font-size: 13px;
   }
-}
+  #let{
+    text-align: center;
+    color:gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  #bar{
+    padding-top:15px;
+    width: 65%;
+  }
+  #welcome{
+    color:gray;
+    font-size: 17px;
+    text-align: center;
+  }
+  #forgot{
+    display: block;
+    color: dodgerblue;
+    font-size: 13px;
+    text-align: center;
+    /* padding:10px; */
+  }
+  .big{
+    display: none;
+  }
+  .small{
+    display: block;
+  }
