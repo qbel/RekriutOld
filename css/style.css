@@ -79,6 +79,9 @@
     background-color: dodgerblue;
     border-color: white;
 }
+#in{
+  display: none;
+}
 /* .has-search .form-control {
   padding-left: 2.375rem;
 }
@@ -114,7 +117,7 @@
   color: white;
 } */
 .slider{
-  
+
 }
 
 @media only screen and ( max-width: 1024px ) {
@@ -152,5 +155,13 @@
   }
   #search{
     margin-top: 5px;
+  }
+  #footer{
+    display: none;
+  }
+  #in{
+    display: block;
+    color: gray;
+    /* padding:10px; */
   }
 }
