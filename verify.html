@@ -14,73 +14,94 @@
 
     <link rel="shortcut icon" type="image/png" href="images/Favicon.png"/>
 
-    <title>Rekriut  </title>
+    <title>Rekriut</title>
   </head>
   <body id="body">
     <nav class="navbar navbar-expand-md bg-faded navbar-light" id="navbar"> 
-        <div class="container pl-2" id="top" >
-            <a class="navbar-brand" href="index.html">
-                <img id="logo" alt="" src="images/Logo Black.png" width="95" height="32" class="big">
-                <img id="logo" alt="" src="images/Logo White.png" width="75" height="25" class="small">
+        <div class="container pl-2" >
+            <a class="navbar-brand" href="#">
+            <img id="logo" alt="" src="images/Logo Black.png" width="95" height="32" class="big ml-5">
+            <img id="logo" alt="" src="images/Logo White.png" width="75" height="25" class="small">
             </a> 
-            
-            <!-- <form class="navbar-form navbar-right"> -->
-                <!-- <div class="form-group" id="ola">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div> -->
-                <!-- <a class="btn sign p-2" href="#" role="button" id="">Sign In</a>
-                <a class="btn me3 pt-pb-0" href="#" role="button" id="">Join now</a> -->
-                <!-- <button type="button" class="btn ">Cancel</button> -->
-                <!-- <button type="button" class="btn me3">Join now</button> -->
-            <!-- </form> -->
-            <!-- <div class="col-md-12">
-                <div class="col-md-6"></div>
-            </div> -->
+            <form class="navbar-form navbar-right" role="search" id="ola">
+            <div class="input-group col-md-11">
+                <input class="form-control py-2 border-right-0 border" type="search" id="" placeholder="Search Here">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-primary border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+            </form>
         </div>
     </nav>
-    <section class="bgimage">
-      <div class="container p-5">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <p id="verify">Add a phone number</p>
-            <p id="please">Please enter your email or phone</p>
-          </div>
-        </div>
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-12 p-2">
-                <!-- <label id="label">Email Or phone<span id="star"> *</span></label> -->
-                <input type="number" class="form-control col-form-label" id="" placeholder="Example: +234">
-                <!-- <input type="number" name="quantity" min="1" max="5"> -->
-                <!-- <button type="button" class="btn mt-4 me2">Cancel</button> -->
-                <a class="btn mt-4 me" href="mobilesignin.html" role="button" style="background-color:#3180cf;color:white">Verify</a>
-                <!-- <button type="button" class="btn mt-4 me">Verify</button> -->
-              </div>
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="pb-1 pt-3" style="background-color:#3180cf" id="footer">
-      <div class="container pl-5">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-3">
-              <input type="email" class="form-control col-form-label" id="" placeholder="Email or Phone Number">
+    <section>
+        <div class="container pl-5" >
+            <!-- <div class="col-md-12 pl-5" style="margin:10px auto"> -->
+                <!-- <div class="col-md-2"></div> -->
+                <!-- <div class="col-md-8"> -->
+                    <!-- <h1>Let's do a quick verification</h1>
+                    <p>The login attempt seems suspicious. To finish signing in please enter the verification code<br> we sent to you email address.</p>
+                </div>
+                <div class="form-group row"> -->
+                    <!-- <label for="example-number-input" class="col-2 col-form-label">Number</label> -->
+                    <!-- <div class="col-6">
+                        <input class="form-control" type="number"  id="">
+                    </div>
+                </div> -->
+                <!-- <div class="col-md-2"></div> -->
+            <!-- </div> -->
+            <div class="row ">
+                <div class="col-md-12 mt-5" id="mah">
+                    <div class="m-5 pb-0 bg-light">
+                        <h1 style="padding-left:10px">Let's do a quick verification</h1>
+                        <p style="padding-left:10px">The login attempt seems suspicious. To finish signing in please enter the verification code<br> we sent to you email address.</p>
+                        <div class="form-group row mt-5 pl-3">
+                                <div class="col-2">
+                                <input class="form-control" type="number"  id="" placeholder="443x">
+                            </div>
+                        </div> 
+                        <div class="col-md-4 mt-5">
+                           <input class="btn btn-primary btn-block" type="submit" value="Submit">
+                        </div>
+                        <div class="col-md-5 mt-5">
+                            <p>Didn't recieve the code? <span style="color:#3180cf">Resend</span> to all emails</p>
+                        </div>
+                    </div>
+                    <div class="m-5 pb-3 bg-info">
+                        <div class="row">
+                            <div class="col-md-6">
+                                
+                                1</div>
+                            <div class="col-md-6">2</div>
+                        </div>
+                            <!-- I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)</div> -->
+                    </div>
+                </div>
             </div>
-            <div class="form-group col-md-3">
-              <input type="password" class="form-control col-form-label" id="" placeholder="Password">
-            </div>
-            <div class="form-group col-md-2">
-                <a class="btn btn-outline-primary btn-block" href="#" role="button" style="background-color:#3180cf">Sign In</a>
-              </div>
-            <div class="form-group col-md-3 pt-2 text-right">
-                <p><a href="#" style="color:white" >Forgot Password?</a></p>
-              </div>
-          </div>
-        </form>
-      </div>
     </section>
-      <!-- Optional JavaScript -->
+    <section class="container">
+            <div class="m-5 pb-3 bg-info">
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                            1</div>
+                        <div class="col-md-6">2</div>
+                    </div>
+                        <!-- I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)</div> -->
+                </div>
+    </section>
+    jkhrjgfyhgtyghjfgjgfkjhgkjgjygfj
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
