@@ -5,6 +5,15 @@
     vertical-align:middle;
     /* background-image:  */
   }
+  #main{
+    display: block;
+  }
+  #mobile{
+    display: none;
+  }
+  #mobilesearch{
+    display: none;
+  }
   .navbar-brand span {
     font-size:2rem;
     line-height:1.2;
@@ -21,11 +30,20 @@
   .navbar-nav {
     margin-left:auto;
   }
-
+  #ola{
+    width:500px;
+    color: white;
+    /* align-items: center */
+    /* padding-bottom:2px; */
+    /* left: 575px; */
+  }
+  #ola .form-control{
+    background-color: #3180cf;
+  }
   .bgimage {
     width:100%;
     /* height:580px; */
-    background: url('../images/background.png');
+    background: url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -41,8 +59,8 @@
   } */
   #find{
     color: white;
-    font-size: 50px;
-    padding-top:35px;
+    font-size: 49px;
+    padding-top:42px;
     margin-bottom: 0px;
     font-weight: bolder;
     font-family: 'Roboto Condensed', sans-serif;
@@ -77,7 +95,7 @@
   }
   .btn-outline-primary:hover {
     color: white;
-    background-color: dodgerblue;
+    background-color: #3180cf;
     border-color: white;
 }
 #in{
@@ -85,6 +103,7 @@
 }
 input::-webkit-input-placeholder {
   color: #D3D3D3 !important;
+  /* opacity: .5; */
   }
    
   input:-moz-placeholder { /* Firefox 18- */
@@ -98,6 +117,15 @@ input::-webkit-input-placeholder {
   input:-ms-input-placeholder {  
   color: #D3D3D3 !important;  
   }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#team{
+  color: white;
+}
+
 /* .has-search .form-control {
   padding-left: 2.375rem;
 }
@@ -132,11 +160,13 @@ input::-webkit-input-placeholder {
   margin: 0;
   color: white;
 } */
-.slider{
+/* .slider{
 
-}
+} */
 
-@media only screen and ( max-width: 1024px ) {
+
+@media only screen and ( max-width: 1024px ) 
+{
   .bgimage { 
     background-image: none !important;
   }
@@ -145,13 +175,15 @@ input::-webkit-input-placeholder {
     font-size: 26px;
     padding-bottom:5px;
     padding-top: 0px;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
   }
+ 
   #follow{
     color:gray;
     padding-top:5px;
     font-size:12px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
   #get{
@@ -162,10 +194,10 @@ input::-webkit-input-placeholder {
   #by{
     color: gray;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
   }
   #navbar{
-    background-color: dodgerblue;
+    background-color: #3180cf;
   }
   #toggle{
     background-color:white;
@@ -195,19 +227,20 @@ input::-webkit-input-placeholder {
     font-size: 15px;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  #bar{
+  /* #bar{
     padding-top:15px;
     width: 65%;
-  }
+  } */
   #welcome{
-    color:gray;
-    font-size: 17px;
+    color:#4d3838;
+    font-size: 19px;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   #forgot{
     display: block;
-    color: dodgerblue;
-    font-size: 13px;
+    color: #3180cf;
+    font-size: 15px;
     text-align: center;
     /* padding:10px; */
   }
@@ -217,3 +250,82 @@ input::-webkit-input-placeholder {
   .small{
     display: block;
   }
+  #ola{
+    display: block;
+    width: 60%;
+    align: right;
+    /* padding:0px; */
+    /* margin-top:2px; */
+  }
+  #ola .form-control{
+    background-color: white;
+  }
+  #first{
+    color:#4d3838;
+    font-size: 19px;
+    font-weight: bolder;
+    /* text-align: center; */
+  }
+  #please{
+    color:black;
+    font-size: 14px;
+    /* text-align: center; */
+  }
+  #label{
+    font-size: 14px;
+    color: gray;
+  }
+  #star{
+    color:#3180cf;
+    font-size: 14px;
+  }
+  .me{
+    width: 49%;
+    background-color: #3180cf;
+    color: white;
+  }
+  .me2{
+    width: 49%;
+    background-color: white;
+    border: 1px solid #3180cf;
+    color: #3180cf;
+  }
+  .me3{
+    border: 1px solid white;
+    color: white;
+    background-color: #3180cf;
+    font-weight: bolder;
+  }
+  .sign{
+    color:white;
+    font-weight: bolder;
+  }
+  #main{
+    display: none;
+  }
+  #mobile{
+    display: block;
+  }
+  #verify{
+    color:#4d3838;
+    font-size: 19px;
+    font-weight: bolder;
+    /* text-align: center; */
+  }
+  #mobilesearch{
+    display: block;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.small{
+  width: 93px;
+  height: 40px;
+  margin-left:40px;
+}
+}
+ 

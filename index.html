@@ -7,56 +7,34 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/png" href="images/Favicon.png"/>
 
-    <title>Rekriut | </title>
+    <title>Rekriut</title>
   </head>
   <body id="body">
     <nav class="navbar navbar-expand-md bg-faded navbar-light" id="navbar"> 
       <div class="container pl-2" >
-        <!-- <div class="row"> -->
-          <!-- <div class="col-md-6"> -->
-              <a class="navbar-brand" href="#">
-                <img id="logo" alt="" src="images/Logo Black.png" width="95" height="32" class="big">
-                <img id="logo" alt="" src="images/Logo White.png" width="75" height="25" class="small">
-              </a> 
-          <!-- </div> -->
-          <!-- <div class="col-md-6" style="float:right"> -->
-            <form class="navbar-form navbar-right" role="search" id="bar">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-              </form>
-          <!-- </div> -->
-          
-        <!-- </div> -->
-        <!-- Brand --> 
-        <!-- <a class="navbar-brand" href="#"><img id="logo" alt="" src="images/img1.jpeg" width="85" height="35"></a>  -->
-        
-        <!-- Toggler/collapsibe Button -->
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="toggle"> <span class="navbar-toggler-icon"></span> </button> -->
-        
-        <!-- Navbar links -->
-        <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          
-          <ul class="navbar-nav"> -->
-            <!-- <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> -->
-            <!-- <div class="form-group has-search" id="search">
-                <i class="fas fas-search form-control-feedback"></i>
-                <input type="text" class="form-control" placeholder="Search Here">
-              </div>
-          </ul>
-        </div> -->
+        <a class="navbar-brand" href="#">
+          <img id="logo" alt="" src="images/Logo Black.png" width="95" height="32" class="big ml-5">
+          <img id="logo" alt="" src="images/Logo White.png" width="75" height="25" class="small">
+        </a> 
+        <form class="navbar-form navbar-right" role="search" id="ola">
+          <div class="input-group col-md-11">
+            <input class="form-control py-2 border-right-0 border" type="search" id="" placeholder="Search Here">
+            <span class="input-group-append">
+                <button class="btn btn-outline-primary border-left-0 border" style="background-color:#3180cf" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span>
+          </div>
+        </form>
       </div>
     </nav>
-    
     <section class="bgimage">
       <div class="container p-5">
         <div class="row">
@@ -66,33 +44,36 @@
             <p id="get">Get started today</p>
           </div>
         </div>
-        <form>
+        <form >
           <div class="form-row">
-            <div class="form-group col-md-5 p-2">
+            <div class="form-group col-md-6 p-2">
               <input type="text" class="form-control col-form-label" id="" placeholder="First Name">
             </div>
-            <div class="form-group col-md-5 p-2">
+            <div class="form-group col-md-6 p-2">
               <input type="text" class="form-control col-form-label" id="" placeholder="Last Name">
             </div>
-            <div class="form-group col-md-5 p-2">
+            <div class="form-group col-md-6 p-2">
                 <input type="email" class="form-control col-form-label" id="" placeholder="Email Or Phone Number">
             </div>
-            <div class="form-group col-md-5  p-2">
+            <div class="form-group col-md-6  p-2">
                 <input type="password" class="form-control col-form-label" id="" placeholder="Password">
             </div>
-            <div class="form-group col-md-5 p-2 pt-3">
-              <p id="by">By clicking Join now, you agree to Rekriut User Agreement Privacy Policy and Cookie Policy </p>                
+            <div class="form-group col-md-6 p-2 pt-3">
+              <p id="by">By clicking Join now, you agree to the Rekriut User Agreement, Privacy Policy and Cookie Policy </p>                
             </div>
-            <div class="form-group col-md-5 ">
-                <a class="btn btn-primary btn-lg btn-block" href="#" role="button" style="background-color:DodgerBlue">Join now</a>
+            <div class="form-group col-md-6 ">
+                <a class="btn btn-primary btn-lg btn-block" href="#" role="button" style="background-color:#3180cf" id="main">Join now</a>
+                <a class="btn btn-primary btn-lg btn-block" href="verify.html" role="button" style="background-color:#3180cf" id="mobile">Join now</a>
             </div>
-            <div id="in">Already have an account?<a href="signin.html" style="font-weight:bolder;color: dodgerblue"> Sign In</a></div>
+          </div>
+          <div style="float:center">
+            <div id="in">Already have an account?<a href="mobilesignin.html" style="font-weight:bolder;color: #3180cf"> Sign In</a></div>
           </div>
         </form>
       </div>
     </section>
-    <section class="pb-1 pt-3" style="background-color:DodgerBlue" id="footer">
-      <div class="container pl-5">
+    <section style="background-color:#3180cf" id="footer">
+      <div class="container pl-5 pt-3">
         <form>
           <div class="form-row">
             <div class="form-group col-md-3">
@@ -102,7 +83,7 @@
               <input type="password" class="form-control col-form-label" id="" placeholder="Password">
             </div>
             <div class="form-group col-md-2">
-                <a class="btn btn-outline-primary btn-block" href="#" role="button" style="background-color:DodgerBlue">Sign In</a>
+                <a class="btn btn-outline-primary btn-block" href="#" role="button" style="background-color:#3180cf">Sign In</a>
               </div>
             <div class="form-group col-md-3 pt-2 text-right">
                 <p><a href="#" style="color:white" >Forgot Password?</a></p>
