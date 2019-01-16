@@ -11,9 +11,9 @@
   #mobile{
     display: none;
   }
-  #mobilesearch{
+  /* #mobilesearch{
     display: none;
-  }
+  } */
   .navbar-brand span {
     font-size:2rem;
     line-height:1.2;
@@ -312,9 +312,9 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: bolder;
     /* text-align: center; */
   }
-  #mobilesearch{
+  /* #mobilesearch{
     display: block;
-  }
+  } */
 }
 
 /* iPads (portrait and landscape) ----------- */
